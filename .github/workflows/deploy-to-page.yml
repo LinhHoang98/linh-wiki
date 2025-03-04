@@ -31,7 +31,7 @@ jobs:
   deploy:
     name: Deploy to Github Pages
     needs: build
-    permission:
+    permissions:
       pages: write
       id-token: write
 
